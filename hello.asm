@@ -1,4 +1,4 @@
-section .data  ;section  .data contains initialized constants
+section .data  ;section  .data contains constants
     msg db 'Hello, bros!', 0xa, 0xd
     len equ $ - msg
     
